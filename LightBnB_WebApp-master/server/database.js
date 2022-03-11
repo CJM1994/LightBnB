@@ -125,7 +125,7 @@ exports.getAllReservations = getAllReservations;
  */
 const getAllProperties = function (options, limit = 10) {
 
-  //     owner_id,
+  // GOOD CANDIDATE FOR HELPER FUNCTION HERE
 
   const queryParams = [];
   let tempClause = 'WHERE';
